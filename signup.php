@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
 	<head>
 		<meta charset="utf-8">
 		<title>新規登録</title>
@@ -13,4 +13,4 @@
 			<p><button type="submit">登録</button></p>
 		</form>
 	</body>
-</html>
+</html> -->

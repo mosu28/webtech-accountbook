@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
 	<head>
 		<meta charset="utf-8">
 		<title>ログインフォーム</title>
@@ -12,4 +12,4 @@
 			<p><button type="submit">ログイン</button></p>
 		</form>
 	</body>
-</html>
+</html> -->
