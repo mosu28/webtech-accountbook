@@ -1,0 +1,179 @@
+body {
+	background-color: #5E5;
+}
+
+.fp-prev:hover {
+	border-right-color: #AAA;
+}
+
+.fp-next:hover {
+	border-right-color: #AAA;
+}
+
+.calendar {
+	width: 100%;
+}
+
+.calendar-title {
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+}
+
+.calendar-table {
+	width: 80%;
+	height:85%;
+	float: center;
+}
+
+td.week-title {
+	text-align: right;
+	border: solid 3px;
+	border-color: #AAA;
+	background-color: #FFF;
+	height: 50px;
+	font-size: 22px;
+}
+
+td.day {
+	width: 200px;
+	height: 80px;
+	border: solid 3px;
+	border-color: #AAA;
+	background-color: #FFF;
+}
+
+td.day:hover {
+	background-color: #EEE;
+}
+
+td.week-title:first-child span, td.day:first-child p {
+	color: #F33;
+}
+
+.week:first-child div {
+	text-align: right;
+	height: 40px;
+}
+
+.day p {
+	font-size: 20px;
+	text-align: right;
+}
+
+.add-btn {
+	cursor: pointer;
+	margin: 0;
+	position: relative;
+	right: 3px;
+	bottom: 5px;
+	float: right;
+	color: #080;
+	padding: 0;
+	font-size: 22px;
+	transition-duration: 0.5s;
+}
+
+.add-btn:hover {
+	color: #FA0;
+	transform:rotate(180deg);
+}
+
+.prev-area {
+	float: left;
+	width: 10%;
+	height: 85%;
+}
+
+.next-area {
+	float: right;
+	width: 10%;
+	height: 85%;
+}
+
+.prev-btn {
+	position: relative;
+	top: 45%;
+	padding: 0;
+	float: right;
+	left: 0;
+	width: 40px;
+	height: 70px;
+	text-align: left;
+	background-color: #080;
+	color: #FFF;
+	font-size: 30px;
+	border-radius: 3px;
+	border: none;
+	transition-duration: 0.25s;
+}
+
+.next-btn {
+	position: relative;
+	padding: 0;
+	float: left;
+	top: 45%;
+	left: 0;
+	width: 40px;
+	height: 70px;
+	text-align: right;
+	background-color: #080;
+	color: #FFF;
+	font-size: 30px;
+	border-radius: 3px;
+	border: none;
+	transition-duration: 0.25s;
+}
+
+.prev-btn:hover, .next-btn:hover {
+	width: 60px;
+	background-color: #FA0;
+	color: #FFF;
+}
+
+
+#submit-window {
+	z-index: 1;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+#submit-contents {
+	z-index: 2;
+	position: fixed;
+	width: 350px;
+	height: 300px;
+	background-color: #EEE;
+	border-radius: 5px;
+}
+
+#submit-form {
+	margin: 0 auto 0;
+	position: relative;
+	top: 35px;
+	width: 300px;
+	height: 300px;
+}
+
+.date-time, .io-select, .type-select {
+	margin: 5px;
+}
+
+.btn-area {
+	margin: 20px auto 0;
+	width: 240px;
+}
+
+.submit-btn, .cancel-btn {
+	z-index: 3;
+	float: left;
+	margin: 20px;
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+}
